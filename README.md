@@ -20,7 +20,7 @@ to simply use GCS, and not involve Firebase at all, but GCS doesn't let one
 serve HTTPS end to end for custom domains, and we're not trying to have a less
 than fort knox secure experience here, because guest books are important.
 
-[This](foo) document will walk you through setting up a static website with
+[This](./doc/firebase.md) document will walk you through setting up a static website with
 Firebase hosting, and serve it on your custom domain with end to end HTTPS.
 
 Note: I am not a Javascript developer, this is my first time using Node, and
@@ -43,4 +43,4 @@ stuff to a whole other level. Unfortunately, for the purpose of this project,
 I can't afford to pay for Cloudflare or for Workers, so you'll just need to imagine
 that I used workers to do something funky, and I'll explain workers and some
 examples in [this](bleh) doc.
-[Here's](https://globenewswire.com/news-release/2018/03/13/1421367/0/en/Cloudflare-Workers-Opens-Edge-Computing-to-Everyone.html) a fun news release about me using workers in the mean time ;) 
+[Here's](https://globenewswire.com/news-release/2018/03/13/1421367/0/en/Cloudflare-Workers-Opens-Edge-Computing-to-Everyone.html) a fun news release about me using workers in the mean time ;)
