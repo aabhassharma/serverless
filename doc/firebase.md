@@ -24,11 +24,19 @@ firebase login
 ```
 firebase init
 ```
-Follow the onscreen instructions, and we're good!
+Follow the onscreen instructions (and make sure you setup the new project on the console),
+and we're good!
 
 ### Build a guest book
 Heads up, I'm horrible at HTML. Or Javascript. Or pretty much anything to do with
 websites. So, this is simple. And it works.
 
 Put the HTML content for your guestbook in the [index.html](../public/index.html)
-that was created when you did the firebase init. 
+that was created when you did the firebase init.
+
+### Deploy your static guest book
+```
+firebase deploy
+```
+
+No really, its really that simple. Your static website is deployed! 
