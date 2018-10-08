@@ -32,7 +32,7 @@ Google Cloud Functions! For actually doing the "work" on this website, I chose
 Google Cloud Functions. Using app engine to actually do the work would be
 cheating, and Cloud Functions are serverless, so perfect fit!
 
-[This](bar) document will walk you through setting up a cloud function that
+[This](./doc/cloudfunctions.md) document will walk you through setting up a cloud function that
 accepts the names for the guest book, and the message, and stores them.
 
 ### Edge computing
